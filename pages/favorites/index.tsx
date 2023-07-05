@@ -4,7 +4,7 @@ import { Layout } from "../../components/layouts/Layout";
 import { localFavorites } from "@/utils";
 import { FavoritePokemons } from "../../components/pokemon";
 
-const favoritesPage = () => {
+const FavoritesPage = () => {
   const [favoritePokemons, setFavoritePokemons] = useState<number[]>([]);
 
   useEffect(() => {
@@ -22,4 +22,4 @@ const favoritesPage = () => {
   );
 };
 
-export default favoritesPage;
+export default FavoritesPage;
